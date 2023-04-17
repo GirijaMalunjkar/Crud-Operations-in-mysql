@@ -98,7 +98,7 @@ app.put("/api/user/:id", (req, res) => {
             });
         } else {
             res.send({
-                status: True, message: "User Update Successfully"
+                status: true, message: "User Update Successfully"
             });
         }
     });
